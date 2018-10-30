@@ -18,7 +18,7 @@ def palindrome_loop(word):
 		return True
 
 word = input("enter a word:")
-if(palindrome_reverse(word) == True): #or if(palindrome_loop==True)
+if(palindrome_reverse(word) == True): #or if(palindrome_loop(word)==True)
 	print(word + " is a palindrome")
 else:
 	print(word + " is NOT a palindrome" )
