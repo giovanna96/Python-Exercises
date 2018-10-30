@@ -8,7 +8,6 @@ b=[random.randint(0,20) for r in range(random.randint(1,20))]
 intersection = []
 
 print(a)
-print("\n")
 print(b)
 
 for x in range(len(a)):
